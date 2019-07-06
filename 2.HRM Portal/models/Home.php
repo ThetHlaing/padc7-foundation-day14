@@ -1,11 +1,21 @@
-<?php 
+<?php
 
 namespace HRM\Models;
 
 
-class Home {
+class Home
+{
     function __construct()
+    { 
+        //echo "This is from home model";
+    }
+
+    function getContact()
     {
-        echo "This is from home model";
+        return ["Someone", "Anyone", "Everyone"];
+    }
+
+    function saveContact($name){
+        echo $name. ' will be saved';
     }
 }

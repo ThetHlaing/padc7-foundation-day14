@@ -7,7 +7,7 @@ $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
 //$conn =  new mysqli('p:'.$dbhost, $dbuser, $dbpass, 't2');
 
-var_dump($conn);
+//var_dump($conn);
 if (!$conn) {
    die('Could not connect:' . mysqli_connect_error());
 }
